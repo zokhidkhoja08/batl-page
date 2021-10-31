@@ -1,0 +1,208 @@
+/************ fonts *****************/
+@font-face {
+  font-family: "OpenSans-Bold";
+  src: url("../fonts/Open_Sans/OpenSans-Bold.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans-Light";
+  src: url("../fonts/Open_Sans/OpenSans-Light.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans-Regular";
+  src: url("../fonts/Open_Sans/OpenSans-Regular.ttf") format("truetype"); }
+@font-face {
+  font-family: "OpenSans-SemiBold";
+  src: url("../fonts/Open_Sans/OpenSans-SemiBold.ttf") format("truetype"); }
+.font-family-bold {
+  font-family: "OpenSans-Bold", sans-serif; }
+
+.font-family-light {
+  font-family: "OpenSans-Light", sans-serif; }
+
+.font-family-regular {
+  font-family: "OpenSans-Regular", sans-serif; }
+
+.font-family-semi-bold {
+  font-family: "OpenSans-SemiBold", sans-serif; }
+
+/************* Color   *************/
+body header {
+  width: 100%;
+  background: linear-gradient(to right, white 60%, #7F0A78 40%); }
+  body header nav .container .row .col-4 img {
+    padding-top: 23px; }
+  body header nav .container .row .col-4 .nav .nav-link {
+    font-size: 14px;
+    line-height: 17px;
+    padding-top: 42px; }
+  body header nav .container .row .col-4 p {
+    font-size: 10px; }
+  body header nav .container .row .col-4 h6 {
+    font-size: 12px;
+    line-height: 15px; }
+  body header nav .container .row .col-4 #kor {
+    position: relative; }
+  body header nav .container .row .col-4 span {
+    position: absolute;
+    top: -3px;
+    left: 60px;
+    z-index: 1; }
+    body header nav .container .row .col-4 span p {
+      position: absolute;
+      top: 25px;
+      left: 7px; }
+    body header nav .container .row .col-4 span .pl-4 h5 {
+      font-size: 24px;
+      line-height: 29px; }
+    body header nav .container .row .col-4 span .pl-4 p {
+      font-size: 24px;
+      line-height: 29px; }
+  body header #orta .container .row .col-md-7 h1 {
+    padding-top: 125px;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 80px;
+    line-height: 85px; }
+  body header #orta .container .row .col-md-7 p {
+    font-size: 15px; }
+  body header #orta .container .row .col-md-7 #card1 {
+    width: 255px;
+    height: 200px;
+    background: linear-gradient(315.49deg, #FFC85C 1.32%, #F1B301 96.68%);
+    border-radius: 12px; }
+    body header #orta .container .row .col-md-7 #card1 button {
+      font-size: 16px;
+      line-height: 19px;
+      border-radius: 19px;
+      background: rgba(255, 255, 255, 0.203344); }
+    body header #orta .container .row .col-md-7 #card1 p {
+      padding-top: 66px;
+      padding-left: 28px;
+      font-size: 34px;
+      line-height: 32px;
+      font-weight: bold;
+      color: #E76A06; }
+    body header #orta .container .row .col-md-7 #card1 img {
+      position: absolute;
+      bottom: 0;
+      left: 115px; }
+  body header #orta .container .row .col-md-7 #card2 {
+    width: 255px;
+    height: 200px;
+    background: #800A7A;
+    border-radius: 12px;
+    margin-left: 30px; }
+    body header #orta .container .row .col-md-7 #card2 button {
+      width: 174px;
+      height: 40px;
+      font-weight: 500;
+      margin-top: 20px;
+      font-size: 16px;
+      line-height: 19px;
+      background: rgba(255, 255, 255, 0.203344);
+      border-radius: 19px; }
+    body header #orta .container .row .col-md-7 #card2 p {
+      padding-top: 66px;
+      padding-left: 28px;
+      font-size: 34px;
+      line-height: 32px;
+      font-weight: bold;
+      color: #FC96F7; }
+    body header #orta .container .row .col-md-7 #card2 img {
+      position: absolute;
+      bottom: 0;
+      right: 110px; }
+  body header #orta .container .row .col-md-5 {
+    background-image: url("../images/Bitmap.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    filter: drop-shadow(10px 70px 80px rgba(114, 10, 109, 0.2));
+    position: absolute;
+    top: 172px;
+    right: 168px;
+    width: 920px;
+    height: 569px; }
+body main .container .row #barchasi .container .row .col-12 ul li {
+  border: 1px solid;
+  border-radius: 12px;
+  background-color: #F1B301;
+  color: white; }
+body main .container .row .row .col-6 .col-3 button {
+  width: 134px;
+  height: 54px; }
+  body main .container .row .row .col-6 .col-3 button h5 {
+    font-size: 20px; }
+body main .container .row .row .col-md-6 .card {
+  width: 540px;
+  height: 230px;
+  border-radius: 12px; }
+  body main .container .row .row .col-md-6 .card .row .col-3 img {
+    width: 180px;
+    height: 180px; }
+  body main .container .row .row .col-md-6 .card .row .col-9 {
+    position: absolute;
+    left: 211px; }
+    body main .container .row .row .col-md-6 .card .row .col-9 .sir button {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      background-color: #F1B301;
+      position: absolute;
+      left: 250px; }
+body footer #Zohid .back {
+  width: 100%;
+  height: 400px;
+  background-color: #800A7A;
+  overflow: hidden; }
+  body footer #Zohid .back .container .row .col-md-8 .link {
+    width: 180px;
+    height: 65px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding: 7px;
+    box-sizing: border-box; }
+    body footer #Zohid .back .container .row .col-md-8 .link ul {
+      padding-left: 5px; }
+      body footer #Zohid .back .container .row .col-md-8 .link ul li {
+        list-style: none; }
+        body footer #Zohid .back .container .row .col-md-8 .link ul li a {
+          text-decoration: none;
+          padding-left: 5px; }
+          body footer #Zohid .back .container .row .col-md-8 .link ul li a img {
+            padding-right: 12px; }
+  body footer #Zohid .back .container .row .col-md-4 {
+    position: relative; }
+    body footer #Zohid .back .container .row .col-md-4 img1 img {
+      position: absolute;
+      top: 17px;
+      left: -70px; }
+    body footer #Zohid .back .container .row .col-md-4 .img2 img {
+      width: 714px;
+      height: 460px;
+      position: absolute;
+      z-index: 1;
+      top: -50px;
+      right: -110px; }
+body footer #Zohid .container .row .col-md-3 ul li {
+  list-style: none; }
+  body footer #Zohid .container .row .col-md-3 ul li a {
+    text-decoration: none; }
+    body footer #Zohid .container .row .col-md-3 ul li a p {
+      width: 100%;
+      height: 48px;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      line-height: 24px;
+      color: #6C6C6C; }
+
+@media (max-width: 1000px) {
+  body header {
+    font-size: 10px; } }
+@media (max-width: 1200px) {
+  header nav .container .col-4 {
+    font-size: 9px; } }
+@media (max-width: 992px) {
+  header nav .container .col-4 {
+    font-size: 7px; } }
+
+/*# sourceMappingURL=main.css.map */
